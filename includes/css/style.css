@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2018, 7:33:04 PM
+    Author     : Gaurav Rao
+*/
+h3{font-size: 20px;}
+p, label{font-size: 13px;}
+.wrapper{padding: 0 10%;}
+.headerTitle{background: url('../images/header_bg.gif') no-repeat;background-position: center;background-size: cover;}
+.headerTitle h1{padding: 8px 5px;font-size: 30px;}
+.box{padding: 50px;}
+.adSection{text-align: center;}
+.canvas{border-radius: 5px;box-shadow: 0px 0px 11px 0px #777;padding: 20px;min-height: 340px;position: relative;}
+.stepHeadline{text-align: center;}
+.form-control.error{border-color:#ff0000;}
+.buttonBar{position: absolute;bottom: 20px;}
+@media screen and (max-width: 450px) {
+  h3{font-size: 1.1rem;}
+  p, label{font-size: 11px;}
+  .wrapper{padding: 0;}
+}
